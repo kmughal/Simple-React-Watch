@@ -1,0 +1,68 @@
+{
+    "name": "react.simple.watch",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "webpack",
+      "build:watch": "webpack --w",
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "Khurram Shahzad",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+      "@types/chai": "^4.1.0",
+      "@types/chai-arrays": "^1.0.2",
+      "@types/enzyme": "^3.1.6",
+      "@types/enzyme-adapter-react-16": "^1.0.1",
+      "@types/jest": "^22.0.1",
+      "@types/mocha": "^2.2.46",
+      "@types/node": "^9.3.0",
+      "@types/react": "^16.0.34",
+      "@types/react-dom": "^16.0.3",
+      "awesome-typescript-loader": "^3.4.1",
+      "chai": "^4.1.2",
+      "chai-arrays": "^2.0.0",
+      "clean-webpack-plugin": "^0.1.17",
+      "css-loader": "^0.28.8",
+      "enzyme": "^3.3.0",
+      "enzyme-adapter-react-16": "^1.1.1",
+      "file-loader": "^1.1.6",
+      "identity-obj-proxy": "^3.0.0",
+      "jest": "^22.0.6",
+      "mocha": "^4.1.0",
+      "mocha-typescript": "^1.1.12",
+      "node-sass": "^4.7.2",
+      "promise": "^8.0.1",
+      "react": "^16.2.0",
+      "react-addons-test-utils": "^15.6.2",
+      "react-dom": "^16.2.0",
+      "react-test-renderer": "^16.2.0",
+      "sass-loader": "^6.0.6",
+      "source-map-loader": "^0.2.3",
+      "style-loader": "^0.19.1",
+      "typescript": "^2.6.2",
+      "typescript-require": "^0.2.9-1",
+      "url-loader": "^0.6.2"
+    },
+    "jest": {
+      "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js"
+      ],
+      "moduleNameMapper": {
+        "^.+\\.(css|scss)$": "identity-obj-proxy"
+      },
+      "transform": {
+        "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+      },
+      "testMatch": [
+        "**/__tests__/*.(ts|tsx|js)"
+      ]
+    },
+    "dependencies": {
+      "promise": "^8.0.1",
+      "whatwg-fetch": "^2.0.3"
+    }
+  }
